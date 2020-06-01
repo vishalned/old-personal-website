@@ -7,6 +7,11 @@ Author: http://webthemez.com
 
 /* Reset
 ---------------------------------*/
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  
 ul {
     list-style: none;
 }
@@ -1128,6 +1133,7 @@ border: 1px solid #CE1139;
     font-size: 15px;
     margin: 0 0 0 20px;
     padding-left: 0;
+    
 }
 
 .contact_info  h3 {
